@@ -1,0 +1,30 @@
+{
+    "name": "cristiang/pimple-console",
+    "description": "Pimple Console ServiceProvider",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "pimple/pimple": "^3.3",
+        "symfony/console": "^6.0"
+    },
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Gabriel Danasel aka DeVe",
+            "email": "cristian@develab.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CristianG\\PimpleConsole\\": "src/PimpleConsole/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "scripts": {
+    }
+}
